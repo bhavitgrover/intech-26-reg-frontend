@@ -153,7 +153,7 @@
 			parentemail: parentemail,
 		});
 		window.document.getElementById("regis").disabled = true;
-		await fetch("https://intech-26-reg-backend.onrender.com/register", {
+		await fetch("https://intech-26-reg-backend.vercel.app/register", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
